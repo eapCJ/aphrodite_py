@@ -1,21 +1,12 @@
+from setuptools import Extension, setup
+
 setup(
-    name="Chaturbot-cf6",
+    name="Aphrodite",
     version="1.0.0",
-    description="Bot for boost models of chaturbate",    
-    url="https://github.com/Crisfon6/Chaturbot-CF6",
-    author="Crisfon6",
-    author_email="disruptivecrisfon6@gmail.com",
+    description="Aprhodite Chaturbate",
+    url="https://github.com/eapcj",
+    author="EAPCJ",
+    author_email="eusebiu.plesa@gmail.com",
     license="MIT",
-    classifiers=[
-        "License :: OSI Approved :: MIT License",
-        "Programming Language :: Python",
-        "Programming Language :: Python :: 2",
-        "Programming Language :: Python :: 3",
-    ],
-    packages=["reader"],
-    include_package_data=True,
-    install_requires=[
-        "selenium", "pandas", "tk", ""
-    ],
-    entry_points={"console_scripts": ["realpython=reader.__main__:main"]},
+    packages=['selenium','pandas','tk']
 )

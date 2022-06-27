@@ -41,7 +41,7 @@ class Browser:
         
 
         # options.add_experimental_option('prefs', {'intl.accept_languages': 'en,en_US'})  # set language
-        # options.add_argument(      '--no-sandbox')  # required when running as root user. otherwise you would get no sandbox errors.
+        options.add_argument(      '--no-sandbox')  # required when running as root user. otherwise you would get no sandbox errors.
         # options.add_argument('--ignore-certificate-errors')
         # options.add_argument("start-maximized")      
         
